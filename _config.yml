@@ -10,10 +10,10 @@
 ############################
 
 # Name of website
-title: My website
+title: Liam Houston
 
 # Your name to show in the footer
-author: Some Person
+author: Liam Houston
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -21,10 +21,11 @@ author: Some Person
 
 navbar-links:
   About Me: "aboutme"
+  Blog: "blog"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+#  Author's home: "https://deanattali.com"
 
 ################
 # --- Logo --- #
@@ -32,14 +33,14 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+avatar: "https://media.licdn.com/dms/image/v2/C5603AQEe7N48BJP3kQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1661535583445?e=1736985600&v=beta&t=KR__aUi01S5w6Wl7qz3CC2leEx0ZZNvTEhMaNd7yAwM"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
-#title-img: /path/to/image
+# title-img: "https://media.licdn.com/dms/image/v2/C5603AQEe7N48BJP3kQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1661535583445?e=1736985600&v=beta&t=KR__aUi01S5w6Wl7qz3CC2leEx0ZZNvTEhMaNd7yAwM"
 
 
 #####################################
@@ -50,22 +51,22 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
+  email: "liamdh23@gmail.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: "@daattali"
-  whatsapp: 15551212
+#  facebook: deanattali
+  github: liamhouston
+#  twitter: daattali
+#  patreon: DeanAttali
+#  youtube: "@daattali"
+#  whatsapp: 15551212
 #  medium: yourname
 #  reddit: yourname or r/yoursubreddit
 #  linkedin: daattali
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
-#  instagram: deanat78
-#  spotify: yourname
+  instagram: _liamhouston_
+  spotify: liamdh23
 #  telephone: +14159998888
 #  steam: deanat78
 #  twitch: yourname
@@ -76,16 +77,16 @@ social-network-links:
 #  bluesky: yourname
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
-#  discord: "invite_code" or "users/userid" or "invite/invite_code"
+  discord: "users/liamh2856" 
 #  kaggle: yourname
 #  hackerrank: yourname
 #  gitlab: yourname
-#  itchio: yourname
+  itchio: liamhouston
 #  untappd: yourname
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+# rss-description: This website is a virtual proof that I'm awesome
 
 ###########################
 # --- General options --- #
