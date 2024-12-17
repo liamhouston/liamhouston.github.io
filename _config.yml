@@ -22,9 +22,9 @@ author: Liam Houston
 navbar-links:
   About Me: "aboutme"
   Blog: "blog"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+#  Resources:
+#    - Beautiful Jekyll: "https://beautifuljekyll.com"
+#    - Learn markdown: "https://www.markdowntutorial.com/"
 #  Author's home: "https://deanattali.com"
 
 ################
@@ -41,6 +41,13 @@ round-avatar: true
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
 # title-img: "https://media.licdn.com/dms/image/v2/C5603AQEe7N48BJP3kQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1661535583445?e=1736985600&v=beta&t=KR__aUi01S5w6Wl7qz3CC2leEx0ZZNvTEhMaNd7yAwM"
+
+#####################################
+# --- Custom Projects Collection--- #
+#####################################
+collections:
+  projects:
+    output: true
 
 
 #####################################
@@ -101,7 +108,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "liamhouston.github.io"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
