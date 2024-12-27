@@ -21,12 +21,11 @@ So maybe I can't claim as clearly that I'm playing for the cognitive benefits. T
 
 On a little bit of a lighter note let me share some of my favourite recent games and puzzles. 
 
-<iframe src="https://lichess.org/embed/game/XSAtpFrP?theme=auto&bg=auto#62"
-width=600 height=397 frameborder=0></iframe>
-[Here](https://lichess.org/XSAtpFrP/black#62) is my highest rated victory and my first queen sac. I was very proud of this game and my queen sac caused my opponent to blunder. 
+<iframe width="600" height="371" src="https://lichess.org/study/embed/DmYUREmZ/BJwQU9Hp?theme=auto&bg=light#61" frameborder=0></iframe>
+Here is my highest rated victory and my first queen sac. I was very proud of this game and my queen sac caused my opponent to blunder. 
 
 [My favourite study](https://lichess.org/study/YtBYXc3m) has some beautiful historical checkmates that I've been going through.
 Basically I just find the puzzles really fun and it's so satisfying to find a move order to deliver a checkmate in the chaos.
 
 I know I'm nerdy but man it's fun and a good competitive outlet for me. Anyways I think that's all for today. Thanks again for reading! I'm working on finding a good blog style that makes it easy to write and fun to read. Hoping to keep writing about things I find interesting :)))
-\- Liam
+<br>\- Liam
