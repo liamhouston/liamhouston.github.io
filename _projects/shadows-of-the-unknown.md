@@ -1,7 +1,7 @@
 ---
 title: Missing or Dead
 description: An indie horror game centred around finding your missing brother!
-image: /assets/img/avatar-icon.png
+thumbnail-img: /assets/img/missing_or_dead_cover.jpg
 github: https://github.com/liamhouston/Shadows-of-the-Unknown
 ---
 

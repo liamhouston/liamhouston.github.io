@@ -33,7 +33,7 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "https://media.licdn.com/dms/image/v2/C5603AQEe7N48BJP3kQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1661535583445?e=1736985600&v=beta&t=KR__aUi01S5w6Wl7qz3CC2leEx0ZZNvTEhMaNd7yAwM"
+avatar: "/assets/img/me.jpg"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
