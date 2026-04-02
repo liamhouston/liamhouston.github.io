@@ -1,0 +1,9 @@
+
+{
+	"poems": [
+		{ "id": "poem1", "title": "Poem 1", "file": "poems/poem1.txt" },
+		{ "id": "poem2", "title": "Poem 2", "file": "poems/poem2.txt" },
+		{ "id": "poem3", "title": "Poem 3", "file": "poems/poem3.txt" }
+	]
+}
+
