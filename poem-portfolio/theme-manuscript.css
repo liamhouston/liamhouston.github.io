@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --paper: #f4ecd8;
+    --paper-deep: #eadfcb;
+    --ink: #2f2415;
+    --ink-soft: #66543f;
+    --rule: #b69f7a;
+    --accent: #7d5f32;
+}
+
+body {
+    min-height: 100vh;
+    font-family: "EB Garamond", "Garamond", "Georgia", serif;
+    color: var(--ink);
+    background:
+        radial-gradient(circle at 18% 12%, rgba(255, 255, 255, 0.38) 0%, transparent 38%),
+        radial-gradient(circle at 82% 92%, rgba(199, 174, 125, 0.22) 0%, transparent 44%),
+        linear-gradient(180deg, var(--paper) 0%, var(--paper-deep) 100%);
+}
+
+.menubar {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1.4rem 1.3rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.9rem 1.3rem;
+}
+
+.menubar a {
+    color: var(--ink-soft);
+    text-decoration: none;
+    font-size: 0.95rem;
+    letter-spacing: 0.08em;
+    font-variant: small-caps;
+    border-bottom: 1px solid transparent;
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.menubar a:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+
+.intro-panel {
+    width: min(900px, calc(100vw - 2.6rem));
+    margin: 1.8rem auto 2.6rem;
+    padding: 2.2rem clamp(1rem, 2.9vw, 2.8rem) 2rem;
+    background: rgba(255, 253, 248, 0.84);
+    border: 1px solid rgba(182, 159, 122, 0.9);
+    border-radius: 14px;
+    box-shadow: 0 18px 40px rgba(47, 36, 21, 0.12);
+}
+
+.intro-kicker {
+    font-variant: small-caps;
+    letter-spacing: 0.1em;
+    color: var(--ink-soft);
+    font-size: 0.92rem;
+    margin-bottom: 0.5rem;
+}
+
+.intro-title {
+    font-size: clamp(1rem, 4.3vw, 3.2rem);
+    line-height: 1.03;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    color: #3f2f1b;
+    margin: 0 auto 0.9rem;
+    max-width: calc(100% - 1.8rem);
+    white-space: nowrap;
+    text-align: center;
+}
+
+.intro-description {
+    max-width: 62ch;
+    font-size: 1.08rem;
+    line-height: 1.5;
+    color: #41311f;
+    margin-bottom: 1.5rem;
+}
+
+.poem-collection-image {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 1.4rem;
+}
+
+.collection-image {
+    width: min(100%, 560px);
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    border: 1px solid rgba(182, 159, 122, 0.8);
+    box-shadow: 0 14px 34px rgba(47, 36, 21, 0.11);
+}
+
+.poem-nav-list {
+    display: grid;
+    gap: 0.75rem;
+}
+
+.poem-nav-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    text-decoration: none;
+    padding: 0.8rem 0.9rem;
+    border: 1px solid rgba(182, 159, 122, 0.7);
+    border-radius: 8px;
+    background: rgba(244, 236, 216, 0.42);
+    transition: border-color 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
+}
+
+.poem-nav-item:hover {
+    border-color: var(--accent);
+    background: rgba(244, 236, 216, 0.74);
+    transform: translateY(-1px);
+}
+
+.poem-nav-name {
+    color: var(--ink);
+    font-size: clamp(1rem, 2.2vw, 1.2rem);
+    letter-spacing: 0.01em;
+}
+
+.poem-nav-cta {
+    color: var(--ink-soft);
+    font-variant: small-caps;
+    letter-spacing: 0.08em;
+    font-size: 0.88rem;
+    white-space: nowrap;
+}
+
+.poem-container {
+    width: min(940px, calc(100vw - 2.6rem));
+    margin: 1.5rem auto 2.6rem;
+    padding: 2.1rem clamp(1rem, 2.7vw, 2.6rem) 2rem;
+    background: rgba(255, 252, 245, 0.72);
+    border: 1px solid var(--rule);
+    border-radius: 10px;
+    box-shadow: 0 14px 34px rgba(47, 36, 21, 0.11);
+}
+
+.poem-title {
+    font-size: clamp(2rem, 4vw, 3.6rem);
+    font-weight: 500;
+    line-height: 1.05;
+    letter-spacing: 0.02em;
+    color: #3f2f1b;
+    margin-bottom: 1.2rem;
+}
+
+.poem-content {
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0.2rem 0;
+    scrollbar-width: thin;
+    scrollbar-color: #b59a73 #ece1cf;
+}
+
+.poem-content pre {
+    white-space: pre !important;
+    margin: 0;
+    min-width: max-content;
+    font-family: "Courier Prime", "Courier New", monospace;
+    font-size: 1rem;
+    line-height: 1.62;
+    letter-spacing: 0;
+    color: var(--ink);
+}
+
+@media (max-width: 900px) {
+    .menubar {
+        padding: 1rem 1rem 0;
+        gap: 0.5rem 0.9rem;
+    }
+
+    .intro-panel {
+        width: calc(100vw - 1.8rem);
+        margin-top: 1rem;
+        padding: 1.5rem 1rem 1.3rem;
+        border-radius: 10px;
+    }
+
+    .intro-description {
+        font-size: 1.03rem;
+    }
+
+    .collection-image {
+        width: min(100%, 500px);
+    }
+
+    .poem-container {
+        width: calc(100vw - 1.8rem);
+        margin-top: 1rem;
+        padding: 1.4rem 1rem 1.2rem;
+    }
+}
+
+@media (max-width: 560px) {
+    .menubar a {
+        font-size: 0.9rem;
+    }
+
+    .intro-panel {
+        width: calc(100vw - 1rem);
+        margin-bottom: 1rem;
+        padding: 1.15rem 0.8rem;
+        border-radius: 8px;
+    }
+
+    .intro-title {
+        max-width: calc(100% - 1.4rem);
+    }
+
+    .intro-description {
+        font-size: 0.98rem;
+        margin-bottom: 1.15rem;
+    }
+
+    .poem-collection-image {
+        margin-bottom: 1rem;
+    }
+
+    .collection-image {
+        width: min(100%, 420px);
+        border-radius: 8px;
+    }
+
+    .poem-nav-item {
+        padding: 0.66rem 0.7rem;
+    }
+
+    .poem-nav-cta {
+        font-size: 0.8rem;
+    }
+
+    .poem-container {
+        width: calc(100vw - 1rem);
+        margin-bottom: 1rem;
+        padding: 1.1rem 0.8rem;
+        border-radius: 8px;
+    }
+
+}

@@ -38,7 +38,7 @@ function renderPoemText(title, text) {
 		const data = await loadJson('poems.json');
         // if json is correct find the poem with given name, otherwise return null
 		const poem = (data && data.poems) ? data.poems.find(p => p.id === id) : null;
-		if (!poem) {
+		if (!poem) {w
 			renderPoemText('Poem not found', 'That poem does not exist.');
 			return;
 		}
