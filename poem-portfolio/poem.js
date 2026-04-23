@@ -23,6 +23,7 @@ async function loadText(path) {
 	return res.text();
 }
 
+
 // Fills the HTML elements with appropriate title + content.
 function renderPoemText(title, text) {
 	document.title = title;
@@ -38,7 +39,7 @@ function renderPoemText(title, text) {
 		const data = await loadJson('poems.json');
         // if json is correct find the poem with given name, otherwise return null
 		const poem = (data && data.poems) ? data.poems.find(p => p.id === id) : null;
-		if (!poem) {w
+		if (!poem) {
 			renderPoemText('Poem not found', 'That poem does not exist.');
 			return;
 		}

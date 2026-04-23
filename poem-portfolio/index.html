@@ -8,9 +8,9 @@
 </head>
 <body>
     <nav class="menubar">
-        <a href="poem.html?p=poem1">Mill Creek Visions</a>
-        <a href="poem.html?p=poem2">Who Needs Real Working Hands</a>
-        <a href="poem.html?p=poem3">Raspberry Boy</a>
+        <a href="poem.html?p=poem1" data-poem-id="poem1"></a>
+        <a href="poem.html?p=poem2" data-poem-id="poem2"></a>
+        <a href="poem.html?p=poem3" data-poem-id="poem3"></a>
     </nav>
 
     <main class="intro-panel">
@@ -30,18 +30,19 @@
 
         <section class="poem-nav-list" aria-label="Poem index">
             <a class="poem-nav-item" href="poem.html?p=poem1">
-                <span class="poem-nav-name">Raspberry Boy</span>
+                <span class="poem-nav-name" data-poem-id="poem1"></span>
                 <span class="poem-nav-cta">Read poem</span>
             </a>
             <a class="poem-nav-item" href="poem.html?p=poem2">
-                <span class="poem-nav-name">Who Needs Real Working Hands</span>
+                <span class="poem-nav-name" data-poem-id="poem2"></span>
                 <span class="poem-nav-cta">Read poem</span>
             </a>
             <a class="poem-nav-item" href="poem.html?p=poem3">
-                <span class="poem-nav-name">Mill Creek Visions</span>
+                <span class="poem-nav-name" data-poem-id="poem3"></span>
                 <span class="poem-nav-cta">Read poem</span>
             </a>
         </section>
     </main>
+    <script src="index.js"></script>
 </body>
 </html>
